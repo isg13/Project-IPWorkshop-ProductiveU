@@ -1,0 +1,253 @@
+
+body{
+	width:100%;
+	margin: auto;
+	background-image:url("Images/1.jpg");
+	font-family: Arno Pro, sans-serif;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header{
+	width:100%;
+	background-color: #000000;
+	top:0;
+	position:fixed;
+}
+
+.logo{
+	float:left;
+	font-size:15px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+li{
+	list-style:none;
+	float:left;
+	margin-left:45px;
+	padding-top:10px;
+	font-size:20px;
+}
+
+.nav{
+	float:right;
+}
+
+.content{
+	text-align:justify;
+	padding-left:15%;
+	padding-right:15%;
+	padding-top:10%;
+	font-size:25px;
+	color:white;
+	text-decoration:bold;
+}
+
+/*----valid for every page----*/
+
+
+/*----valid for index-----*/
+.intro{
+	background-color: #887799 !important;
+	width:100%;
+	border:10px solid black ; 
+	border-style:double;
+	opacity:0.70;
+	text-align:center;
+	display:fixed;
+}
+
+.box{
+	width: 278px;
+	height:250px;
+    padding: 0px;
+    border: 5px solid black;
+    border-style:double;
+    background:#887799;
+    margin-top: 25px;
+    margin-right: 5px;
+    float:left;
+}
+
+.text{
+	font-style:underline;
+	position:relative;
+	top:50px;
+	display:flex;
+}
+/*----valid for start----*/
+.data{
+	margin:20px;
+
+}
+.info{
+	text-align: justify;
+	font-size: 20px;
+	background-color: #887799 !important;
+	width:100%;
+	border:10px solid black ; 
+	border-style:double;
+	opacity:0.75;
+	display:fixed;
+	border-radius:20px;
+	display:fixed;
+}
+/*----valid for resources----*/
+.article {
+	font-family: Georgia;
+	background-color: #FFFFFF ;
+	border-radius: 20px;
+	color: #E0D0E1;
+	padding: 20px;
+	margin: 20px ;
+	border:5px solid black;
+	border-style:double;
+}
+
+.article-title{
+	padding:10px;
+	color:black;
+	font-weight: bold;
+	font-size: 20;
+	font-family: Arno Pro, sans-serif;
+}
+
+.article-content{
+	font-family: Arno Pro, sans-serif;
+	font-size: 15px;
+	text-align: left;
+	color:black;
+	padding:5px;
+	text-align: justify;
+}
+
+a.art{
+	color:purple;
+}
+
+.close{
+	float:right;
+}
+
+.cell{
+	text-align:justify;
+	font-family: Arno Pro, sans-serif;
+}
+ /*----resources popup box-----*/
+#popupBoxOnePosition{
+	top: 0; 
+	left: 0; 
+	position: fixed; 
+	width: 100%; 
+	height: 120%;
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+}
+
+#popupBoxTwoPosition{
+	top: 0; 
+	left: 0; 
+	position: fixed; 
+	width: 100%; 
+	height: 120%;
+	background-color: rgba(0,0,0,0.7); 
+	display: none;
+}
+
+
+#popupBoxThreePosition{
+	top: 0; 
+	left: 0; 
+	position: fixed; 
+	width: 100%; 
+	height: 120%;
+	background-color: rgba(0,0,0,0.7); 
+	display: none;
+}
+
+#popupBoxFourPosition{
+	top: 0; 
+	left: 0; 
+	position: fixed; 
+	width: 100%; 
+	height: 120%;
+	background-color: rgba(0,0,0,0.7); 
+	display: none;
+}
+
+.popupBoxWrapper{
+	width: 700px; 
+	margin: 50px auto; 
+	text-align: justify;
+}
+
+.popupBoxContent{
+	background-color:transparent; 
+	padding: 0px;	
+}
+
+/*----valid for books----*/
+
+.quote{
+	text-align: center;
+	font-style:italic;
+	background-color: #887799 !important;
+	width:100%;
+	border:10px solid black ; 
+	border-style:double;
+	opacity:0.70;
+	border-radius:20px;
+	padding:20px;
+}
+
+.featured-book{
+	background-color: #887799 !important;
+	width:100%;
+	border:10px solid black ; 
+	border-style:double;
+	opacity:0.90;
+	border-radius:20px;
+	padding:20px;
+	display:fixed;
+	font-size:20px;
+	text-align:center;
+}
+
+.categ{
+	font-size:40px;
+	text-align:left;	
+}
+/*----valid for contact----*/
+
+.sm{
+	background-color: #887799 !important;
+	width:80px;
+	height:80px;
+	border:10px solid black ; 
+	border-style:double;
+	opacity:0.90;
+	border-radius:100px;
+	padding:40px;
+	display:fixed;
+	font-size:20px;
+	text-align:center;
+}
+
+.cont{
+	background-color: #887799;
+	border:10px solid black ; 
+	border-style:double;
+	opacity:0.90;
+	border-radius:0px;
+	padding:40px;
+	margin:0 auto;
+	margin-top:20px;
+	width:100%;
+}
